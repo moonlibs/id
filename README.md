@@ -53,6 +53,22 @@ local id = gen:id()
 01DEN8879B47JBKVCJBW7DV3F8
 ```
 
+## Icecap
+
+Something between snowflake and ulid (It looks like ulid, and made from 50 bits of time, 10 bits of node id and 60 bits of random)
+
+```lua
+local icecap = require 'id.icecap'
+local gen = icecap:new{node = 1}
+
+local id = gen:id()
+...
+```
+
+```
+01DFTJ1B3E01Y9HRTHDAFZY3
+```
+
 ## Base 58 UUID
 
 (Requires [base58](https://github.com/moonlibs/base58) library)
@@ -113,7 +129,3 @@ local id = gen:id()
 ```
 PhtfB6SYWK4L5H9KJwJR6QnJpPye1XZftmBirYu8inmL
 ```
-
-
-
-
