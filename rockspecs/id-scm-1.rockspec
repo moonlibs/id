@@ -18,6 +18,7 @@ build = {
         ['id.snowflake'] = 'id/snowflake.lua';
         ['id.dsg']       = 'id/dsg.lua';
         ['id.ulid']      = 'id/ulid.lua';
+        ['id.icecap']    = 'id/icecap.lua';
         ['id.uuid58']    = 'id/uuid58.lua';
         ['id.r58']       = 'id/r58.lua';
     };
